@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "sat-23-feb"
+    bucket  = "mercury23-s3"
     key     = "dev/terraform.tfstate"
     region  = "us-west-2"
     encrypt = true
